@@ -1,6 +1,7 @@
 
 body {
   background-color: lightblue;
+  width: 1200px;
 }
 h1 {
   text-align: center;
@@ -17,7 +18,7 @@ h2 {
 h3 {
   text-align: center;
   font-size: 30px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 h4 {
@@ -25,15 +26,16 @@ h4 {
   font-size: 20px;
 }
 
-img {
-  height: 700px;
-  width: 500px;
+.image-1 {
+  height: 50%;
+  width: 50%;
   /* margin:  */
   overflow: auto;
   display: block;
   margin: 0 auto;
   padding-top: 20px;
-  /* text-align: center; */
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 ul {
@@ -56,32 +58,55 @@ li span {
 }
 
 section {
-  padding-top: 20px;
+  clear: both;
+  padding-top: 50px;
 }
 
 .quote {
   float: left;
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 20px;
+  padding-top: 50px;
 }
 
-.pic-2 {
-  float: right;
-  height: 200px;
-  width: 200px;
+.image-2 {
+  display: inline-block;
+  height: 30%;
+  width: 30%;
+  /* border: 5px solid white; */
 }
 
-.pic3 {
-
+.clear {
+  clear: both;
 }
 
 .older {
   clear: both
-  margin-top: 50px;
-  border: 2px solid brown;
+  padding-top: 50px;
+  /* border: 2px solid brown; */
+  margin: auto 0;
+  text-align: center;
 }
 
+.image-3 {
+  height: 40%;
+  width: 40%;
+  text-align: center;
+  margin-top: 20px;
+  border: 5px solid white;
+
+}
+  
+
 .shrine  {
-  height: 400px;
-  width: 400px;
+  clear: both;
+  height: 50%;
+  width: 50%;
+  /* margin: auto 0; */
+  text-align: center;
+  margin-left: 300px;
+  border: 5px solid white;
 }
 
 .center-caption {
@@ -98,4 +123,5 @@ a {
 footer {
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 50px;
 }
